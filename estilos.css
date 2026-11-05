@@ -1,0 +1,129 @@
+body {
+ max-width: 900px;
+ margin: 0 auto;
+ padding: 20px;
+ font-family: Arial, sans-serif;
+}
+h2 { margin: 32px 0 10px; }
+
+.barra { height: 70px; padding: 0 20px; background: #1e293b; }
+.logo { font-size: 24px; color: #34d399; }
+.enlaces a { color: white; }
+.boton { padding: 8px 16px; background: #34d399; color: #1e293b; }
+.barra{
+    display: flex;
+justify-content:space-between;
+align-items:center;
+}
+.podio { height: 220px; background: #1e293b; }
+.puesto { width: 90px; background: #fcd34d; text-align: center; }
+.plata { height: 100px; }
+.oro { height: 150px; }
+.bronce { height: 60px; }
+.podio{
+    display: flex;
+    align-items:flex-end;
+    justify-content:center;
+    gap: 15px;
+}
+.menu-lateral { width: 240px; padding: 16px; background: #1e293b; }
+.menu-lateral a { padding: 10px; background: #475569; color: white; }
+.menu-lateral{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+.galeria { padding: 16px; background: #1e293b; }
+.foto { width: 200px; height: 110px; background: #22d3ee; }
+.galeria {
+ display: flex;
+ flex-wrap: wrap;
+ gap: 24px;
+ justify-content: center;
+}
+/* .tarjeta es item Y contenedor */
+.tarjeta {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ flex: 1 1 200px;
+}
+
+.layout { padding: 16px; background: #1e293b; }
+.sidebar { width: 200px; height: 150px; background: #94a3b8; }
+.contenido { 
+    height: 150px; 
+    background: #34d399; 
+    display: flex;
+}
+.extra { width: 150px; height: 150px; background: #fb923c; }
+.layout {
+ display: flex;
+ gap: 16px;
+}
+.lateral { width: 200px; }
+.contenido { flex: 1; }
+
+.secciones { padding: 16px; background: #1e293b;
+    display: flex;
+    flex-direction: column-reverse; }
+.secciones div { padding: 16px;  background: #94a3b8;}
+.secciones .destacado { background: #fb923c; }
+
+.fila { height: 200px; padding: 12px; background: #1e293b; }
+.bloque { width: 70px; height: 60px; background: #94a3b8;}
+.bloque.especial { background: #fb923c;}
+.fila{
+    display: flex;
+    flex-wrap: wrap;
+}
+.bloque.especial{
+    flex-basis: 100%;
+    order: 1;
+}
+
+.pantalla { height: 400px; background: #134e4a;
+ display: flex;
+    align-items: center;
+justify-content: center;
+} 
+.bienvenida { width: 320px; padding: 20px; background: white; text-align: center; }
+
+.aviso { background: #fb923c; font-weight: bold; }
+.aviso {
+ display: flex;
+ justify-content: center;
+ display: flex;
+    align-items: center;
+justify-content: center;
+ gap: 10px;
+ height: 80px;
+}
+
+.grilla {  display: flex;
+ gap: 16px;
+ flex-wrap: wrap;
+    padding: 100px; 
+    background: #1e293b; 
+
+
+}
+.tarjeta { 
+    background: #f472b6; 
+ width: 200px;
+ height: 120px;
+}
+
+.panel { padding: 16px; background: #1e293b; }
+.panel-menu { height: 120px; background: #94a3b8; }
+.panel-contenido { height: 120px; background: #34d399;
+flex-grow: 1;
+}
+.panel {
+ display: flex;
+ flex-grow: 1;
+}
+.panel-menu {
+ width: 200px;
+}
+
